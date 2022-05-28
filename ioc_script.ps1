@@ -48,20 +48,20 @@
 #run Autorun.exe: to check verified processes/DLLs/etc. *disable/enable tasks that have created registry keys*
 
 #Autoruns.exe color codes:
-"
+<#
 #Yellow — Startup entry exists, but cannot link itself or find the program installed on your computer.
 #Green — Startup entry was recently added since last Autoruns scan, probably due to the installment of a new program.
 #Pink — No publisher information exists, either because the digital signature doesn’t exist or publisher information is not included in the program.
 #Purple — Indicates where the Autoruns file is located.
-"
+#>
 
 # Registry entries known for persistence::
-"
+<#
 #HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run *SYSTEM BOUND KEY*
 #HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run  *USER BOUND KEY*
 #HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\RunOnce *SYSTEM BOUND KEY*
 #HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce *USER BOUND KEY*
-"
+#>
 
 #Persistence Identification::
 <#
